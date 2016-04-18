@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D30DC070-A6EB-416F-BAB1-0C20F18E87A1}</ProjectGuid>
+    <ProjectGuid>{E7B8DD53-74CD-444A-9E99-FC1F6CD9F824}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Numbers_Comparer</RootNamespace>
-    <AssemblyName>Numbers_Comparer</AssemblyName>
+    <RootNamespace>_05.Numbers_Comparer</RootNamespace>
+    <AssemblyName>05.Numbers-Comparer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Quadratic-Equation")]
+[assembly: AssemblyTitle("06.Quadratic-Equation")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Mobiltel")]
-[assembly: AssemblyProduct("Quadratic-Equation")]
+[assembly: AssemblyProduct("06.Quadratic-Equation")]
 [assembly: AssemblyCopyright("Copyright © Mobiltel 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("1b879038-4687-424c-b426-e78a8a43835a")]
+[assembly: Guid("788c25c0-5c86-4e0e-b160-56e77a4f4601")]
 
 // Version information for an assembly consists of the following four values:
 //

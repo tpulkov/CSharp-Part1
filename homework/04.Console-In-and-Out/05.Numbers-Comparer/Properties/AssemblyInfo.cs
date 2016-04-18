@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Numbers-Comparer")]
+[assembly: AssemblyTitle("05.Numbers-Comparer")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Mobiltel")]
-[assembly: AssemblyProduct("Numbers-Comparer")]
+[assembly: AssemblyProduct("05.Numbers-Comparer")]
 [assembly: AssemblyCopyright("Copyright © Mobiltel 2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("d30dc070-a6eb-416f-bab1-0c20f18e87a1")]
+[assembly: Guid("e7b8dd53-74cd-444a-9e99-fc1f6cd9f824")]
 
 // Version information for an assembly consists of the following four values:
 //

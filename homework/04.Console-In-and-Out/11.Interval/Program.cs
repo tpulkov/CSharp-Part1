@@ -1,15 +1,25 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 namespace _11.Interval
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            long n = long.Parse(Console.ReadLine());
+            long m = long.Parse(Console.ReadLine());
+            long value = 0;
+
+            for (long sum = n + 1; sum < m; sum++)
+            {
+
+                if (sum % 5 == 0)
+                {
+                    value++;
+                }
+            }
+
+            Console.WriteLine(value);
+                      
         }
     }
 }
