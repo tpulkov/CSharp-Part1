@@ -10,14 +10,14 @@ namespace _02.Not_Divisible_Numbers
 
             for (int i = 0; i <= number; i++)
             {
-                if (i % 7 != 0)
+                if ((i % 7 != 0) && (i % 3 != 0))
                 {
-                    if (i % 3 != 0)
-                    {
-                        Console.Write(i + " ");
-                    }
+                    
+                    Console.Write(i + " ");
+                    
                 }
             }
         }
     }
 }
+
