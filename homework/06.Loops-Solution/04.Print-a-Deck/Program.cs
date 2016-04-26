@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Globalization;
-using System.Threading;
 
 namespace _04.Print_a_Deck
 {
@@ -8,22 +6,18 @@ namespace _04.Print_a_Deck
     {
         static void Main()
         {
-            Thread.CurrentThread.CurrentCulture = CultureInfo.InvariantCulture;
-            string card = Console.ReadLine();
-            int symbol = Convert.ToInt32(card);
-            for (int i = 2; i <= symbol; i++)
-            {
-                Console.WriteLine("{0} of spades, {0} of clubs, {0} of hearts, {0} of diamonds", i);
-                switch (card)
-                {
-                    case "J":
-                    case "Q":
-                    case "K":
-                    case "A":Console.WriteLine("{0} of spades, {0} of clubs, {0} of hearts, {0} of diamonds", i); break;
+            string input = Console.ReadLine();
+            string[] cards = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
+            string[] colors = { " of spades,", " of clubs,", " of hearts,", " of diamonds" };
 
-                    default:
-                        break;
-                }                
+            for (int i = 0; i <= Array.IndexOf(cards, input); i++)
+            {
+                for (int j = 0; j < colors.Length; j++)
+                {
+                    Console.Write(j != colors.Length - 1 ? cards[i] + colors[j] +
+                                                " " : cards[i] + colors[j] + "\n");
+                }
+
             }
         }
     }

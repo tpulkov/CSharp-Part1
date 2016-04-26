@@ -6,20 +6,17 @@ namespace _09.Matrix_of_Numbers
     {
         static void Main()
         {
-            int n = int.Parse(Console.ReadLine());
-            int side = n * 2 - 1;
+            int N = int.Parse(Console.ReadLine());
 
-            for (int row = 0; row < side; row++)
+            for (int i = 1; i <= N; i++)
             {
-                for (int col = 0; col < side; col++)
+                for (int j = i; j < i + N; j++)
                 {
-                    
-                    Console.Write('X');
+                    Console.Write("{0} ", j);
                 }
+                Console.WriteLine();
             }
-            
-
-
         }
     }
 }
+
